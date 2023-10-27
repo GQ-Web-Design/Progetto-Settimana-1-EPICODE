@@ -1,0 +1,169 @@
+/*
+CSS DOCUMENT
+Author: Gianluca Quaranta
+NAME: style.css
+URL: https://www.gianlucaquaranta.com
+SITE: test
+*/
+
+
+/* SETTING GENERICI */
+img {
+    width: 8em;
+}
+html{
+    text-align: center;
+}
+body{
+    color: #393d41;
+    font-size: 1.2rem;
+    font-family:  'Open Sans', sans-serif;
+    line-height: 1.65;
+}
+i{
+    font-style: italic;
+}
+header{
+    background-color: #000000;
+    text-align: left;
+    padding: 2em;
+}
+h1, h2, h3, h4, h5, h6{
+    color:#25a2c3;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    font-weight: bold;
+}
+p{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 0em 1em 0em 1em;
+}
+.banner, .testi, .testimonianze{
+    margin-bottom: 2em;
+}
+
+/* SECTION BANNER*/
+.banner{
+    background-image: url(../img/banner.jpg);
+    background-position: center;
+    padding: 1em;
+    padding-bottom: 1.5em;
+    height: 25em;
+}
+.contenutobanner{
+    margin-top: 10%;
+}
+.banner h1{
+    font-size: 2em;
+}
+.banner a{
+    color: #ffffff;
+    padding: 0.5em 1em 0.5em 1em;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #f04c2f;
+}
+/*SECTION FLOAT*/
+.float{
+    padding: 2em;
+}
+.sinistra{
+    display: inline;
+    margin-left: 25em;
+}
+.sinistra img{ 
+    width: 25rem;
+    border-radius: 15em;
+    padding: 1em;
+}
+/*SECTION TESTI*/
+.testi{
+    float: right;
+    margin-top: 4em;
+    margin-right: 11em;
+    text-align: left;
+}
+.testi h3{
+    padding: 1em 0em 0em 0em;
+}
+.testi p{
+    display: inline;
+    padding-left: 0;
+}
+/* SECTION TESTIMONIANZE*/
+.testimonianze, .testimonianze h2{
+    color: #ffffff;
+    background-color: #e22d0e;
+}
+.testimonianze{
+    padding: 1.5em;
+}
+.testimonianze h2{
+    font-size: 1.2em;
+}
+.testimonianze p{
+    font-size: 0.8em;
+}
+.testimonianze p:nth-child(2), .testimonianze p:nth-child(3), .testimonianze p:nth-child(4){
+    line-height: 1;
+}
+.testimonianze p:nth-child(3), .testimonianze p:nth-child(4){
+    margin: 0;;
+}
+.testimonianze p:nth-child(3) {
+    font-size: 1em;
+}
+.testimonianze p:nth-child(4){
+    font-size: 0.7em;
+    padding: 0.5em;
+}
+/*SECTION SCHEDE*/
+.contenitoreschede{
+    display: inline-block;
+}
+#unset{
+    padding: unset;
+}
+.schede{
+    margin: 1em;
+    margin-bottom: 2em;
+    border: 1px solid #dee1e3;
+    border-radius: 3px;
+    width: min-content;
+    float: inline-start;
+}
+#foto1{
+    width: 20em;
+}
+#foto2{
+    width: 20.5em;
+}
+#foto3{
+    width: 22.2em;
+}
+/*SECTION FOOTER*/
+footer{
+    color: #c8e7f0;
+    background-color: #25a2c3;
+    font-size: 0.8em;
+    padding: 1em;
+}
+address p{
+    margin: 0;
+    line-height: 1.5;
+}
+hr{
+    color: #ffffff;
+    width: 10em;
+}
+footer h2{
+    padding: 0.5em;
+    font-size: 2em;
+    color: #ffffff;
+}
+footer a {
+    color: #c8e7f0;
+}
