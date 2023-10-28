@@ -82,8 +82,8 @@ p{
 /*SECTION TESTI*/
 .testi{
     float: right;
-    margin-top: 4em;
     
+    line-height: 3;
     text-align: left;
 }
 .testi h3{
